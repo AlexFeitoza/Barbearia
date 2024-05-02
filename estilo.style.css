@@ -7,18 +7,4 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background-color: rgb(92, 88, 88);
-}
-
-nav > img {
-    height: 100px;
-    cursor: pointer;
-}
-
-nav > li > a {
-    color: #fff;
-    text-decoration: none;
-    
-}
 
