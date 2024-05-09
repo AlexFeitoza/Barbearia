@@ -12,6 +12,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: -30px;
 }
 
 nav .logo img {
@@ -42,7 +43,17 @@ nav ul li a:hover {
     transition: .5s;    
 }
 
-.conteiner img {
-    width: 100vw;
+.conteiner {
+    background-color: #c0b6b6;
+    height: 100vh;
+}
 
+h2 {
+    color: #fff;
+    margin-left: -350px;
+}
+
+.sessao-texto img {
+    width: 300px;
+    border-radius: 50%;
 }
