@@ -42,7 +42,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #FFDAB9;
+    color: #f17908;
     text-decoration: underline;
     transition: .5s;    
 }
@@ -50,22 +50,61 @@ nav ul li a:hover {
 h2 {
     color: #fff;
     margin-left: -350px;
+    
 }
 
+.conteiner p {
+    color: gray;
+    padding-top: 20px;
+    margin-left: 30px;
+    
+    
+}
 .conteiner {
-    background-color: #c0b6b6;
+    background-color: rgb(51, 58, 58);
     height: 586px;
 }
 
 .conteiner img {
     height: 586px;
     float: right;
-    border-radius: 10px;
+    
+}
+
+.conteiner h1 {
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    }
+
+h4 {
+    color: #fff;
+    font-size: 1.2em;
+    padding-top: 150px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.conteiner button {
+    background-color: rgb(27, 27, 26);
+    color: #fff;
+    font-size: 1em;
+    padding: 17px;
+    border: solid 2px #f17908;
+    margin-left: 150px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.conteiner button:hover {
+    background-color: #f17908;
+    
 }
 
 .sobre-nos {
     background-color: #696969;
     color: #fff;
+    display: inline-block;
 }
 .service {
     background-color: black;
