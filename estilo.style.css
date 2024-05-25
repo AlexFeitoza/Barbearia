@@ -85,10 +85,11 @@ h4 {
     margin-left: 30px;
 }
 
-.conteiner button {
+button {
     background-color: rgb(27, 27, 26);
     color: #fff;
     font-size: 1em;
+    font-weight: bold;
     padding: 17px;
     border: solid 2px #f17908;
     margin-left: 150px;
@@ -96,31 +97,56 @@ h4 {
     cursor: pointer;
 }
 
-.conteiner button:hover {
+button:hover {
     background-color: #f17908;
     
 }
 
 .sobre-nos {
     background-color: #696969;
-    color: #fff;
-    display: inline-block;
-    height: 600px;
+    display: flex;
+    margin-top: 80px;
+    
+    
 }
 
 .sobre-nos h1 {
-    font-size: 1.4em;
+    font-size: 3.4em;
     margin: auto;
+    padding-left: 130px;
+    color: #fff;
 }
 
-.service {
-    background-color: black;
-    height: 800px; ;
+.sobre-nos p {
+    padding-left: 130px;
+    padding-top: 20px;
+    padding-right: 80px;
+    color: #c0bcbc;
+
+}
+
+.sobre-nos h3{
+    font-size: 2em;
+    padding-left: 130px;
+    margin-top: 20px;
+    display: block;
+    color: #fff;
+      
 }
 
 .foto1 img{
-    height: 700px;
+    height: 500px;
+    width: 350px;
     float: right;
-    
+    margin: 10%;
+    border-radius: 10px;
     
 }
+
+.one {
+    background-color: rgb(214, 24, 24);
+    height: 300px;
+}
+
+
+
