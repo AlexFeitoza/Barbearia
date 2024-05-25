@@ -144,8 +144,10 @@ button:hover {
     
 }
 
-.service {
+.service img {
+    height: 600px;
     
+
 }
 
 .line {
