@@ -1,17 +1,18 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 main {
     background-color: #696969;
 }
 nav {
-    background-color: #696969;
+    background-color: #1b1c1e;
     display: flex;
     height: 55px;
     align-items: center;
@@ -54,14 +55,14 @@ h2 {
 }
 
 .conteiner p {
-    color: gray;
+    color: #919297;
     padding-top: 20px;
     margin-left: 30px;
     
     
 }
 .conteiner {
-    background-color: rgb(51, 58, 58);
+    background-color: #2d394b;
     height: 586px;
 }
 
@@ -121,7 +122,7 @@ button:hover {
     padding-left: 130px;
     padding-top: 20px;
     padding-right: 80px;
-    color: #c0bcbc;
+    color: #fff;
 
 }
 
@@ -143,10 +144,89 @@ button:hover {
     
 }
 
-.one {
-    background-color: rgb(214, 24, 24);
-    height: 300px;
+.service {
+    
 }
 
+.line {
+    
+    height: 150px;
+    width: 100vw;
+    display: flex;
+}
 
+.one {
+    background-color: black;
+    color: #fff;
+    height: 150px;
+    width: 20%;
+    padding-top: 35px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
 
+.two {
+    background-color: #1b1c1e;
+    width: 20%;
+    height: 150px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.two p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.three {
+    background-color: black;
+    width: 20%;
+    height: 150px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.three p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.four {
+    background-color: #1b1c1e;
+    width: 20%;
+    height: 150px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.four p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.five {
+    background-color: black;
+    width: 20%;
+    height: 150px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.five p {
+    font-size: 20px;
+    font-weight: 400;
+}
